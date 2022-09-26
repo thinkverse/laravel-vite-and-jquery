@@ -21,6 +21,10 @@
         </style>
 
         @vite('resources/js/app.js')
+
+        <script type="module">
+            $('body').html('<h1>Hello World!</h1>');
+        </script>
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
